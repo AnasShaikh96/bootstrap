@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    overflow-x:hidden;
+}
+
+
+.form-button{
+background:#14274E;
+ border:none;
+ margin-right:5px;
+}
+
+.CarouselContent{
+    background:rgba(0,0,0,.5);
+    text-align: justify;
+    padding-left: 10px;
+    min-height: 250px;
+
+    
+}
+
+.AccordionHeader{
+    font-weight:bold;
+    color:white;
+}
+.AccordionHeader:after{
+position: absolute;
+right:0 ;
+color:#8fb7e5;
+padding-right:10px;
+    font-family:FontAwesome;
+    content:"\f078";
+    font-size:20px;
+    font-weight:lighter;
+}
+.FooterLink{
+    font-size:.8em;
+    flex:row;
+    color:grey;
+    border-right:1px solid grey;
+    padding:0 5px;
+
+}
+
